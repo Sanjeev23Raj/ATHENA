@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 # Hardcoded API key as requested
-GEMINI_API_KEY = "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" #Here put your ai api link .. it will work properly ... which is vertex ai
+GEMINI_API_KEY = "" #Here put your ai api link .. it will work properly ... which is vertex ai
 
 def get_client():
     return genai.Client(api_key=GEMINI_API_KEY)
